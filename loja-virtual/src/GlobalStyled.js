@@ -20,7 +20,7 @@ button{
     border-radius: 4px;
 }
 div{ 
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: transparent;
 }
 

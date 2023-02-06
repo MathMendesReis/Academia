@@ -13,7 +13,7 @@ export const ContainerCards = styled.div`
     display: flex;
     gap: 20px;
     height: 450px;
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
     align-items: center;
 `

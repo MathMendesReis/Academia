@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-around;
   align-items: center;
   height: 717px;
-  width: 90%;
+  width: 100%;
 `;
 export const Banner = styled.div`
 display: flex;
@@ -26,19 +26,20 @@ export const ComecarAgora = styled.button`
 `
 
 export const BgImagem = styled.img`
-  height: 645px;
-  width: 760px;
+  height:auto;
+  width: 600px;
   position: relative;
-  top: -200px;
-  right: 180px;
+  top: -50px;
+  right: 18px;
+
 `
 
 export const Img = styled.img`
-  width: 484px;
-  height: 623px;
+  width: 400px;
+  height: auto;
   position: relative;
-  top: -800px;
-  right: 10px;
+  top: -565px;
+  right: 15px;
   background-color: transparent;
 `
 export const ContainerImagens = styled.div`
