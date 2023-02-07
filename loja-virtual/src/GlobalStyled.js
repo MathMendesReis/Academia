@@ -18,9 +18,11 @@ button{
     border:none;
     cursor: pointer;
     border-radius: 4px;
+    height: 50px;
+    width: 400px;
 }
 div{ 
-    /* border: 2px solid white; */
+    border: 2px solid white;
     background-color: transparent;
 }
 

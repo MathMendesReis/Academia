@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./component/footer";
 import { Header } from "./component/header";
 import { SectionTwo } from "./component/section2";
 import { Section3 } from "./component/section3";
@@ -16,6 +17,7 @@ function App() {
         <Section3 />
         <Section4 />
         <Section5 />
+        <Footer />
       </GlobalState>
     </div>
   );
