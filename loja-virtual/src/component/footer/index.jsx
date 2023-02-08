@@ -1,12 +1,13 @@
 import React from "react";
-import { BoxContainer } from "./styled";
+import { BoxContainer, BoxFaq, Faq, TextPerguntas } from "./styled";
 
 const Footer = () => {
   return (
     <BoxContainer>
-      <div>
+      <BoxFaq>
         <div>
-          <img src="" alt="" />
+          <Faq>FAQ</Faq>
+          <TextPerguntas>perguntas frequentes:</TextPerguntas>
         </div>
         <ul>
           <p>Qual tempo de participação do método?</p>
@@ -14,7 +15,7 @@ const Footer = () => {
           <p>Nunca pratiquei exercícios físicos, posso participar?</p>
           <p>Estou acima do peso, consigo acompanhar os módulos??</p>
         </ul>
-      </div>
+      </BoxFaq>
       <div>
         <p>
           Copyright © 2023. Todos os direitos reservados. Desenvolvido por

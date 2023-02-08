@@ -6,6 +6,9 @@ export const HeaderContainer = styled.header`
   align-items: center;
   height: 717px;
   width: 100%;
+  padding: 10px;
+  @media (max-width:900px) {
+  }
 `;
 export const Banner = styled.div`
 display: flex;
@@ -14,6 +17,15 @@ justify-content: space-between;
 gap: 10px;
 width: 40%;
 height: 300px;
+@media (max-width:900px) {
+  height: 150px;
+  padding: 25px;
+  }
+  @media (max-width: 658px) {
+    position: relative;
+    top: -60px;
+    left: 90px;
+  }
 
 `
 export const TextP = styled.p`
@@ -31,6 +43,15 @@ export const BgImagem = styled.img`
   position: relative;
   top: -50px;
   right: 18px;
+  @media (max-width:900px) {
+    width: 400px;
+    top: 50px;
+    right: -200px;
+    @media (max-width: 658px) {
+    width: 250px;
+    top: 100px;
+  }
+  }
 
 `
 
@@ -41,6 +62,15 @@ export const Img = styled.img`
   top: -565px;
   right: 15px;
   background-color: transparent;
+   @media (max-width:900px) {
+    width: 300px;
+    top: -320px;
+    right: -200px;
+  }
+  @media (max-width: 658px) {
+    width: 200px;
+    top: -100px;
+  }
 `
 export const ContainerImagens = styled.div`
 width: 580px;

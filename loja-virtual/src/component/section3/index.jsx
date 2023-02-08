@@ -8,8 +8,10 @@ import {
   ContainerCards,
   ContainerComents,
   ImgCard,
+  MedotoTxt,
   NameAndProfission,
   Text,
+  TextMetodos,
 } from "./styled";
 import photoCard1 from "../../img/strong-bodybuilder-posing-and-showing-muscles.png";
 import photoCard2 from "../../img/strong-bodybuilder-posing-and-showing-muscles2.png";
@@ -19,7 +21,7 @@ import photoCard4 from "../../img/strong-bodybuilder-posing-and-showing-muscles4
 export const Section3 = () => {
   return (
     <Container>
-      <h1>como funciona o metodo 5x</h1>
+      <MedotoTxt>como funciona o metodo 5x</MedotoTxt>
       <ContainerCards>
         <Card>
           <ImgCard src={photoCard1} alt="" />
@@ -55,7 +57,9 @@ export const Section3 = () => {
         </Card>
       </ContainerCards>
       <ComecarAgora>quero começar agora</ComecarAgora>
-      <h1>o que estão falando do nosso metodo de treinamento</h1>
+      <TextMetodos>
+        o que estão falando do nosso metodo de treinamento
+      </TextMetodos>
       <ContainerComents>
         <BoxComents>
           <NameAndProfission>

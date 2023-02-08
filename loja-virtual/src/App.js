@@ -16,8 +16,8 @@ function App() {
         <SectionTwo />
         <Section3 />
         <Section4 />
-        <Section5 />
-        <Footer />
+        {/* <Section5 /> */}
+        {/* <Footer /> */}
       </GlobalState>
     </div>
   );
