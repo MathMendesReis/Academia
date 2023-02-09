@@ -10,13 +10,10 @@ export const Container = styled.div`
     gap: 50px;
     background-color: #0C0B0B;
     width: 100%;
-    @media (max-width:900px) {
-        width: 60rem;
+    @media (max-width:415px) {
+        
   }
-  @media (max-width: 658px) {
-    width: 45rem;
-    padding: 1rem;
-  }
+  
     
 `;
 

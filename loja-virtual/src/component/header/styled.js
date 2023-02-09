@@ -5,31 +5,31 @@ export const HeaderContainer = styled.header`
   justify-content: space-around;
   align-items: center;
   height: 717px;
-  width: 100%;
-  padding: 10px;
-  @media (max-width:900px) {
+  @media (max-width: 1120px) {
+    flex-direction: column;
+    height: 900px;
   }
+  
+ 
 `;
 export const Banner = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 gap: 10px;
-width: 40%;
+width: 400px;
 height: 300px;
-@media (max-width:900px) {
-  height: 150px;
-  padding: 25px;
+@media (max-width:415px) {
+  align-items: center;
+  height: 350px;
   }
-  @media (max-width: 658px) {
-    position: relative;
-    top: -60px;
-    left: 90px;
+  @media (max-width:778px) {
+    width: 100%;
   }
 
 `
 export const TextP = styled.p`
-  width: 310px;
+  /* width: 310px; */
 `;
 
 export const ComecarAgora = styled.button`
@@ -39,40 +39,59 @@ export const ComecarAgora = styled.button`
 
 export const BgImagem = styled.img`
   height:auto;
-  width: 600px;
+  width: 90%;
   position: relative;
-  top: -50px;
-  right: 18px;
-  @media (max-width:900px) {
-    width: 400px;
-    top: 50px;
-    right: -200px;
-    @media (max-width: 658px) {
-    width: 250px;
-    top: 100px;
+  top: -120px;
+  left: 35px;
+  /* @media (max-width:415px) {
+    position: absolute;
+    top: 550px;
+    left: 20px;
+  } */
+  @media (max-width:778px) {
+    position: absolute;
+    top: 600px;
+    left: 40px;
   }
-  }
-
 `
 
 export const Img = styled.img`
-  width: 400px;
+  width: 65%;
   height: auto;
   position: relative;
-  top: -565px;
-  right: 15px;
+  top: -605px;
+  left: 15px;
   background-color: transparent;
-   @media (max-width:900px) {
-    width: 300px;
-    top: -320px;
-    right: -200px;
+  /* @media (max-width:415px) {
+    position: absolute;
+    top: 580px;
+    left: 50px;
+  } */
+  @media (max-width:778px) {
+    position: absolute;
+    top: 600px;
+    left: 40px;
   }
-  @media (max-width: 658px) {
-    width: 200px;
-    top: -100px;
-  }
+
 `
 export const ContainerImagens = styled.div`
 width: 580px;
 height: 300px;
+@media (max-width:735px) {
+  width: 100%;
+}
+`
+
+
+export const ContainerSecundario = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  height: 80%;
+  align-items: center;
+  @media (max-width: 1120px) {
+    flex-direction: column;
+    height: 100%;
+  }
+  
 `

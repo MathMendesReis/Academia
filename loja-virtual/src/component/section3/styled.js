@@ -7,6 +7,12 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     gap: 25px;
+    @media (max-width:415px) {
+        flex-direction: column;
+        width: 100%;
+        height: 2000px;
+        
+    }
 
 `;
 
@@ -17,41 +23,22 @@ export const ContainerCards = styled.div`
     width: 70rem;
     justify-content: space-around;
     align-items: center;
-    @media (max-width:1136px) {
-        width: 60rem;
-    }
-    @media (max-width:980px) {
-    width: 50rem;
-    margin-left: 155px;
-    }
-    @media (max-width:658px) {
-    width: 40rem;
-    }
-    @media (max-width:503px) {
-        width: 30rem;
-    }
-    @media (max-width:340px) {
+    @media (max-width:415px) {
         flex-direction: column;
+        height: 800px;
+        width: 100%;
         position: relative;
-        top: 850px;
-        left: 110px;
+        top: 450px;
     }
+    
 `
 
 export const Card = styled.div`
 height: 400px;
 width: 310px;
-@media (max-width:1136px) {
-        height: 350px;
-        width: 280px;
+ @media (max-width:415px) {
+        width: 90%;
     }
-@media (max-width:980px) {
-        height: 300px;
-        width: 200px;
-    }
-@media (max-width: 503px) {
-    flex-wrap: wrap;
-}
 `
 
 export const ImgCard = styled.img`
@@ -69,14 +56,12 @@ padding-left: 5px;
 export const ComecarAgora = styled.button`
 height: 50px;
 width: 400px;
-@media (max-width: 900px) {
-    margin-left: 150px;
-}
-@media (max-width: 331px) {
+@media (max-width:415px) {
     position: relative;
-    top: 900px;
-    left: 115px;
+    top: 950px;
+    width: 200px;
 }
+
 `
 
 export const Text = styled.h1`
@@ -87,18 +72,7 @@ background-color: transparent;
 left: 50px;
 font-size: 25px;
 text-align: center;
-@media (max-width:1136px) {
-    left: 15px;
-    }
-@media (max-width:980px) {
-       font-size: 20px;
-    }
-@media (max-width:658px) {
-    font-size: 15px;
-    }
-@media (max-width: 331px) {
-    left: 25px;
-}
+
 `
 
 export const BoxComents = styled.div`
@@ -109,16 +83,19 @@ export const BoxComents = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+     @media (max-width: 415px) {
+        
+ }
 `
 export const ContainerComents = styled.div`
  display: flex;
  gap: 25px;
- @media (max-width: 331px) {
+ @media (max-width: 415px) {
     position: relative;
-    top: 1350px;
-    left: 155px;
+    top: 1100px;
     flex-direction: column;
-}
+ }
+
  `
 export const NameAndProfission = styled.div`
  display: flex;
@@ -132,19 +109,21 @@ export const MedotoTxt = styled.h1`
        margin-left: 150px;
         font-size: 1.6rem;
  }
- @media (max-width: 331px) {
+ @media (max-width:415px) {
     position: relative;
-    left: 120px;
-    top: 370px;
-    width: 100%;
-}
+    top: 40px;
+    left: -40px;
+ }
+
  `
 
 export const TextMetodos = styled.h1`
- @media (max-width: 331px) {
+ @media (max-width: 415px) {
     position: relative;
-    left: 160px;
-    top: 1300px;
+    left: 10px;
+    top: 1050px;
     width: 100%;
+    font-size: 20px;
+    width: 80%;
 }
  `

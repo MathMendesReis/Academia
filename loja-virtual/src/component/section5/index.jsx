@@ -1,12 +1,19 @@
 import React from "react";
-import { Box1, Box2, BoxContainer, ImgGarant } from "./styled";
+import {
+  Box1,
+  Box2,
+  BoxContainer,
+  ButtonComecarAgora,
+  ImgGarant,
+  TxtInvest,
+} from "./styled";
 import ImgGarantia from "../../img/imgGarantia.png";
 
 const Section5 = () => {
   return (
     <BoxContainer>
       <Box1>
-        <h1>investimento</h1>
+        <TxtInvest>investimento</TxtInvest>
         <p>
           Lorem ipsum dolor sit amet consectetur. Lacus consequat auctor lacus
           amet volutpat sed. Ipsum nibh aliquam integer faucibus purus. Orci eu
@@ -14,7 +21,7 @@ const Section5 = () => {
         </p>
         <p>Por apenas R$1.940,00</p>
         <h1>Ou 12x de R$175,80 </h1>
-        <button>começar agora</button>
+        <ButtonComecarAgora>começar agora</ButtonComecarAgora>
       </Box1>
       <Box2>
         <ImgGarant src={ImgGarantia} alt="" />

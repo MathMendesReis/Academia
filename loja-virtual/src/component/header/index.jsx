@@ -7,6 +7,7 @@ import {
   BgImagem,
   ComecarAgora,
   ContainerImagens,
+  ContainerSecundario,
   HeaderContainer,
   Img,
   TextP,
@@ -14,22 +15,24 @@ import {
 export const Header = () => {
   return (
     <HeaderContainer>
-      <Banner>
-        <h1>
-          <img src={logo} alt="" />
-          fabrica de monstros
-        </h1>
-        <h1>Transforme o seu corpo 5x mais rápido</h1>
-        <TextP>
-          Faça parte do método mais utilizado por atletas de alto nível. Venha
-          transformar seu corpo e reconquistar a sua autoestima
-        </TextP>
-        <ComecarAgora>começar agora</ComecarAgora>
-      </Banner>
-      <ContainerImagens>
-        <BgImagem src={imgbg} alt="" />
-        <Img src={imgFront} />
-      </ContainerImagens>
+      <ContainerSecundario>
+        <Banner>
+          <h1>
+            <img src={logo} alt="" />
+            fabrica de monstros
+          </h1>
+          <h1>Transforme o seu corpo 5x mais rápido</h1>
+          <TextP>
+            Faça parte do método mais utilizado por atletas de alto nível. Venha
+            transformar seu corpo e reconquistar a sua autoestima
+          </TextP>
+          <ComecarAgora>começar agora</ComecarAgora>
+        </Banner>
+        <ContainerImagens>
+          <BgImagem src={imgbg} alt="" />
+          <Img src={imgFront} />
+        </ContainerImagens>
+      </ContainerSecundario>
     </HeaderContainer>
   );
 };
