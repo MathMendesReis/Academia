@@ -8,25 +8,14 @@ export const BoxContainer = styled.div`
     align-items:center;
     flex-direction: column;
     gap: 200px;
-     @media (max-width:415px) {
-        position: relative;
-        top: 2000px;
-        display: flex;
-        flex-direction: column;
-        width: 120px;
-    }
+  
 `;
 
 export const BoxFaq = styled.div`
     display:flex;
     width:800px;
     justify-content: space-between;
-    @media (max-width:340px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+
 `
 
 
@@ -65,9 +54,9 @@ export const Copyrigth = styled.div`
 background-color: #E2181A;
 width: 100%;
 height: 35px;
-/* position: absolute; */
-margin-top: 105px;
+position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
+bottom: -70.9px;
 `

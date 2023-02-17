@@ -25,9 +25,7 @@ export const ContainerCards = styled.div`
 export const Card = styled.div`
 height: 400px;
 width: 310px;
- @media (max-width:415px) {
-        width: 90%;
-    }
+
 `
 
 export const ImgCard = styled.img`
