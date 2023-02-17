@@ -15,7 +15,7 @@ Uma pagina que mostra dados de alguns Pokemons
 
 ## 📱Fucionalidades do projeto
 
-- O site tem 3 páginas: Home, Pokedex e Detalhes;
+- O site tem apenas uma página: Home;
 -  Projeto está seguindo esse <a href="https://www.figma.com/file/KseyA2Ofghiek2Cy3ZaDre/Poked%C3%A9x" >desing</a> design;
 - **Página Home:**
 	- [X]  Mostra uma lista de Pokemons;
@@ -34,23 +34,19 @@ Uma pagina que mostra dados de alguns Pokemons
     ## 👀Layout
 ![Pagina Home](./PokeAPI/src/Readme/assests/headerHome.png)
 
-![Pagina Pokedex](./PokeAPI/src/Readme/assests/pokedex.png)
-
-![Pagina Detalhes](./PokeAPI/src/Readme/assests/detalhes.png)
-
 
 ## Demonstração
 
-[Link demonstração](https://poke-api-matheus-mendes.surge.sh/)
+[Link demonstração](https://fabricademonstros.surge.sh/)
 
 ## Como rodar esse projeto?
 
 ```
 # clone este repositorio
-$ git clone https://github.com/MathMendesReis/projeto-react-apis.git
+$ git clone https://github.com/MathMendesReis/loja-virtual.git
 
 # Acesse a pasta do projeto no seu terminal
-$  cd PokeAPI/
+$  cd loja-virtual/
 
 #instale as depedências
 $ npm install
