@@ -45,3 +45,29 @@ top: -25px;
 left: -100px;
 text-transform: capitalize;
 `
+
+
+export const ListQuest = styled.ul`
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+
+`
+
+
+export const Questions = styled.li`
+    border-bottom: 2px solid red;
+
+`
+
+export const Copyrigth = styled.div`
+background-color: #E2181A;
+width: 100%;
+height: 35px;
+/* position: absolute; */
+margin-top: 105px;
+display: flex;
+align-items: center;
+justify-content: center;
+`

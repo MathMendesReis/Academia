@@ -8,8 +8,10 @@ import {
   ContainerCards,
   ContainerComents,
   ImgCard,
+  ImgPhotoFisio,
   MedotoTxt,
   NameAndProfission,
+  NameComents,
   Text,
   TextMetodos,
 } from "./styled";
@@ -17,6 +19,7 @@ import photoCard1 from "../../img/strong-bodybuilder-posing-and-showing-muscles.
 import photoCard2 from "../../img/strong-bodybuilder-posing-and-showing-muscles2.png";
 import photoCard3 from "../../img/strong-man-with-perfect-abs-shoulders-biceps-triceps-and-chest-bodybuilder-topless-flexing-his-muscles-over-black-wall3.png";
 import photoCard4 from "../../img/strong-bodybuilder-posing-and-showing-muscles4.png";
+import photo_leonardo from "../../img/leonardo.png";
 
 export const Section3 = () => {
   return (
@@ -63,9 +66,11 @@ export const Section3 = () => {
       <ContainerComents>
         <BoxComents>
           <NameAndProfission>
-            <img src="" alt="" />
-            <h3>Leonardo</h3>
-            <h4>Fisiocuturista</h4>
+            <ImgPhotoFisio src={photo_leonardo} alt="" />
+            <NameComents>
+              <h3>Leonardo</h3>
+              <h4>Fisiocuturista</h4>
+            </NameComents>
           </NameAndProfission>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
@@ -76,9 +81,11 @@ export const Section3 = () => {
         </BoxComents>
         <BoxComents>
           <NameAndProfission>
-            <img src="" alt="" />
-            <h3>Leonardo</h3>
-            <h4>Fisiocuturista</h4>
+            <ImgPhotoFisio src={photo_leonardo} alt="" />
+            <NameComents>
+              <h3>Leonardo</h3>
+              <h4>Fisiocuturista</h4>
+            </NameComents>
           </NameAndProfission>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
@@ -89,9 +96,11 @@ export const Section3 = () => {
         </BoxComents>
         <BoxComents>
           <NameAndProfission>
-            <img src="" alt="" />
-            <h3>Leonardo</h3>
-            <h4>Fisiocuturista</h4>
+            <ImgPhotoFisio src={photo_leonardo} alt="" />
+            <NameComents>
+              <h3>Leonardo</h3>
+              <h4>Fisiocuturista</h4>
+            </NameComents>
           </NameAndProfission>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga

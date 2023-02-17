@@ -7,12 +7,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     gap: 25px;
-    @media (max-width:415px) {
-        flex-direction: column;
-        width: 100%;
-        height: 2000px;
-        
-    }
+   
 
 `;
 
@@ -23,13 +18,7 @@ export const ContainerCards = styled.div`
     width: 70rem;
     justify-content: space-around;
     align-items: center;
-    @media (max-width:415px) {
-        flex-direction: column;
-        height: 800px;
-        width: 100%;
-        position: relative;
-        top: 450px;
-    }
+  
     
 `
 
@@ -56,11 +45,6 @@ padding-left: 5px;
 export const ComecarAgora = styled.button`
 height: 50px;
 width: 400px;
-@media (max-width:415px) {
-    position: relative;
-    top: 950px;
-    width: 200px;
-}
 
 `
 
@@ -83,18 +67,12 @@ export const BoxComents = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-     @media (max-width: 415px) {
-        
- }
+ 
 `
 export const ContainerComents = styled.div`
  display: flex;
  gap: 25px;
- @media (max-width: 415px) {
-    position: relative;
-    top: 1100px;
-    flex-direction: column;
- }
+
 
  `
 export const NameAndProfission = styled.div`
@@ -105,25 +83,24 @@ export const NameAndProfission = styled.div`
  `
 
 export const MedotoTxt = styled.h1`
- @media (max-width:900px) {
-       margin-left: 150px;
-        font-size: 1.6rem;
- }
- @media (max-width:415px) {
-    position: relative;
-    top: 40px;
-    left: -40px;
- }
+
+
 
  `
 
 export const TextMetodos = styled.h1`
- @media (max-width: 415px) {
-    position: relative;
-    left: 10px;
-    top: 1050px;
-    width: 100%;
-    font-size: 20px;
-    width: 80%;
-}
+
  `
+
+export const NameComents = styled.div`
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 25px;
+ margin-left: 25px;
+ `
+
+
+export const ImgPhotoFisio = styled.img`
+width: 70px;
+height: auto;
+`

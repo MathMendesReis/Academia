@@ -8,7 +8,6 @@ function App() {
       <GlobalStyled />
       <GlobalState>
         <Page />
-
       </GlobalState>
     </div>
   );

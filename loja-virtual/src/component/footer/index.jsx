@@ -1,5 +1,13 @@
 import React from "react";
-import { BoxContainer, BoxFaq, Faq, TextPerguntas } from "./styled";
+import {
+  BoxContainer,
+  BoxFaq,
+  Copyrigth,
+  Faq,
+  ListQuest,
+  Questions,
+  TextPerguntas,
+} from "./styled";
 
 const Footer = () => {
   return (
@@ -9,19 +17,23 @@ const Footer = () => {
           <Faq>FAQ</Faq>
           <TextPerguntas>perguntas frequentes:</TextPerguntas>
         </div>
-        <ul>
-          <p>Qual tempo de participação do método?</p>
-          <p>Quais formas de pagamento?</p>
-          <p>Nunca pratiquei exercícios físicos, posso participar?</p>
-          <p>Estou acima do peso, consigo acompanhar os módulos??</p>
-        </ul>
+        <ListQuest>
+          <Questions>Qual tempo de participação do método?</Questions>
+          <Questions>Quais formas de pagamento?</Questions>
+          <Questions>
+            Nunca pratiquei exercícios físicos, posso participar?
+          </Questions>
+          <Questions>
+            Estou acima do peso, consigo acompanhar os módulos??
+          </Questions>
+        </ListQuest>
       </BoxFaq>
-      <div>
+      <Copyrigth>
         <p>
           Copyright © 2023. Todos os direitos reservados. Desenvolvido por
           Matheus Mendes.
         </p>
-      </div>
+      </Copyrigth>
     </BoxContainer>
   );
 };
