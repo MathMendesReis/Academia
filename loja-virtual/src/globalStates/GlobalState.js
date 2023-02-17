@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { GlobalContext } from './GlobalContext'
 
 export const GlobalState = ({ children }) => {
+    
     const data = {
 
     }
