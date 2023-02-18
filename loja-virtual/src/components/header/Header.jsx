@@ -1,19 +1,25 @@
 import React from "react";
 import {
+  Bg,
+  BgTwo,
   BoxHeader,
   BoxImgs,
   BoxLgAndImg,
   BoxTexts,
+  ButtonComecaAgr,
+  LogoImg,
   TxtFacaParte,
   TxtTransformeCorpo,
 } from "./styled";
 import logo from "../../imgs/logo.png";
+import backViewHeader from "../../imgs/backViewHeader.png";
+import backViewHeaderTwo from "../../imgs/backViewHeaderTwo.png";
 const Header = () => {
   return (
     <BoxHeader>
       <BoxTexts>
         <BoxLgAndImg>
-          <img src={logo} alt="logo" />
+          <LogoImg src={logo} alt="logo" />
           <h1>
             <span>FÁBRICA</span> <p>DE MONSTROS</p>
           </h1>
@@ -25,9 +31,12 @@ const Header = () => {
           Faça parte do método mais utilizado por atletas de alto nível. Venha
           transformar seu corpo e reconquistar a sua autoestima
         </TxtFacaParte>
-        <button>começar agora</button>
+        <ButtonComecaAgr>começar agora</ButtonComecaAgr>
       </BoxTexts>
-      <BoxImgs></BoxImgs>
+      <BoxImgs>
+        <Bg src={backViewHeader} alt="" />
+        <BgTwo src={backViewHeaderTwo} alt="" />
+      </BoxImgs>
     </BoxHeader>
   );
 };
