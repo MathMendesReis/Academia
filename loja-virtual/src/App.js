@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { GlobalState } from './globalStates/GlobalState';
 import { GlobalStyled } from './globalStyled/globalStyled';
 import Header from './components/header/Header';
+import SectionOne from './components/sectionFeitoParaVoce/SectionOne';
+import SectionComoFuncionaOMetodo from './components/sectionComoFuncionaOMetodo';
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
       <GlobalStyled />
       <div>
         <Header />
+        <SectionOne />
+        <SectionComoFuncionaOMetodo />
+
       </div>
     </GlobalState>
   );
