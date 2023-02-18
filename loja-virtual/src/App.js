@@ -5,6 +5,7 @@ import { GlobalStyled } from './globalStyled/globalStyled';
 import Header from './components/header/Header';
 import SectionOne from './components/sectionFeitoParaVoce/SectionOne';
 import SectionComoFuncionaOMetodo from './components/sectionComoFuncionaOMetodo';
+import { CardTreinador } from './components/SectionTreinador';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Header />
         <SectionOne />
         <SectionComoFuncionaOMetodo />
-
+        <CardTreinador />
       </div>
     </GlobalState>
   );

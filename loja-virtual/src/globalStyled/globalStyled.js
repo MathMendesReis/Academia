@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyled = createGlobalStyle`
 *{
-    background-color: #1E1E1E;
+    background-color: #0C0B0B;
     font-family: Montserrat;
     color: #FFFFFF;
     padding: 0;
