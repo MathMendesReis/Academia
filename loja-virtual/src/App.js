@@ -15,7 +15,7 @@ function App() {
         <Header />
         <SectionOne />
         <SectionComoFuncionaOMetodo />
-        <CardTreinador />
+        {/* <CardTreinador /> */}
       </div>
     </GlobalState>
   );
