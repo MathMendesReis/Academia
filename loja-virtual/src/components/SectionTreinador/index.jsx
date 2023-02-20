@@ -1,6 +1,7 @@
 import React from "react";
 import { BoxImgs, BoxTexts } from "../header/styled";
-import { BoxContainer } from "./styled";
+import { BoxContainer, TreinadorImg } from "./styled";
+import treinador from "../../imgs/treinador.png";
 
 export const CardTreinador = () => {
   return (
@@ -22,7 +23,9 @@ export const CardTreinador = () => {
         </p>
         <div></div>
       </BoxTexts>
-      <BoxImgs>box2</BoxImgs>
+      <BoxImgs>
+        <TreinadorImg src={treinador} alt="" />
+      </BoxImgs>
     </BoxContainer>
   );
 };

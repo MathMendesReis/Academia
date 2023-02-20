@@ -1,5 +1,12 @@
 import React from "react";
-import { BoxComents, BoxNameANdProf, ImgLogo, Name, Profissao } from "./styled";
+import {
+  BoxComents,
+  BoxNameANdProf,
+  BoxNameProf,
+  ImgLogo,
+  Name,
+  Profissao,
+} from "./styled";
 import VectorComents from "../../imgs/VectorComents.png";
 
 export const CardsComents = ({ img, name, profissao }) => {
@@ -7,10 +14,10 @@ export const CardsComents = ({ img, name, profissao }) => {
     <BoxComents>
       <BoxNameANdProf>
         <img src={img} alt="" />
-        <div>
+        <BoxNameProf>
           <Name>{name}</Name>
           <Profissao>{profissao}</Profissao>
-        </div>
+        </BoxNameProf>
       </BoxNameANdProf>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius earum a

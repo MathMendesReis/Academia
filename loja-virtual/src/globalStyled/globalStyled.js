@@ -36,13 +36,11 @@ div{
     align-items: center; */
 }
 h1{
-    font-size: 2vw;
     background-color: transparent;
 
 
 }
 p{
-    font-size: 1.2vw;
     background-color: transparent;
 
 

@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-border: 2px solid white;
-height: 250px;
-width: 250px;
+height: 350px;
+width: 350px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+  @media (max-width:752px) {
+    margin-bottom: 150px;
+  
+}
 `
 
 export const ImgBg = styled.img`
@@ -13,18 +19,22 @@ width: 100%;
 
 export const ButtonSaibaMais = styled.button`
 width: 100%;
-position: relative;
-bottom: 24%;
 height: 25px;
 text-align: left;
 padding: 2%;
+/* z-index: 2; */
+font-size: 15px;
+position: relative;
+bottom: 45px;
+
 `
 
 export const TxtCard = styled.h3`
-position: relative;
+/* position: relative; */
 bottom: 35%;
 width: 100%;
 background-color: transparent;
-font-size: 1.5vw;
 text-align: center;
+position: relative;
+bottom: 50px;
 `

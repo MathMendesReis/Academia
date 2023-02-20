@@ -2,40 +2,52 @@ import styled from "styled-components";
 
 export const BoxNameANdProf = styled.div`
 display: flex;
-gap: 10px;
-align-items: center;
 background-color: transparent;
-
+justify-content: flex-start;
+width: 100%;
+gap: 15px;
+align-items: center;
+@media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
 `
 
 export const Name = styled.h1`
-display: block;
-width: 100%;
-font-size: 2.5vw;
 background-color: #1E1E1E;
-
 `
 
-export const Profissao = styled.h3`
-display: block;
-font-size: 1.9vw;
+export const Profissao = styled.h2`
 background-color: #1E1E1E;
-color: #E2181A;
+align-self: center;
 
 `
 export const BoxComents = styled.div`
-border-bottom: 2px solid white;
-height: 200px;
-width: 180px;
-padding: 5px;
+width: 250px;
+height: 370px;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
+padding: 6px;
+border-bottom: 3px solid red;
 background-color: #1E1E1E;
+@media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 
 `
 
 export const ImgLogo = styled.img`
-padding:5px;
-margin-left: 120px;
+align-self: flex-end;
+padding: 3px;
+`
+
+export const BoxNameProf = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1E1E1E;
+width: 100%;
 `

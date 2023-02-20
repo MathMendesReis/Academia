@@ -5,7 +5,6 @@ export const BoxHeader = styled.header`
   height: auto;
   display: flex;
   align-items: center;
-  padding: 10px;
 `;
 
 export const BoxTexts = styled.div`

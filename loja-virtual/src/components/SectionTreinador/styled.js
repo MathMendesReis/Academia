@@ -6,7 +6,14 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 500px;
 height: auto;
 border: 2px solid white;
+  @media(max-width: 612px) {
+    /* ajustar para telas menores que 768px de largura */
+    };
+`
+
+export const TreinadorImg = styled.img`
+height: auto;
+width: 70%;
 `
