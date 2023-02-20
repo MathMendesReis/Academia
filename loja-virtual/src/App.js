@@ -6,17 +6,20 @@ import Header from './components/header/Header';
 import SectionOne from './components/sectionFeitoParaVoce/SectionOne';
 import SectionComoFuncionaOMetodo from './components/sectionComoFuncionaOMetodo';
 import { CardTreinador } from './components/SectionTreinador';
+import { SectionFaq } from './components/sectionFaq';
+import { Body } from './globalStyled/styled';
 
 function App() {
   return (
     <GlobalState >
       <GlobalStyled />
-      <div>
-        <Header />
-        <SectionOne />
-        <SectionComoFuncionaOMetodo />
-        <CardTreinador />
-      </div>
+      {/* <Body > */}
+      <Header />
+      <SectionOne />
+      <SectionComoFuncionaOMetodo />
+      <CardTreinador />
+      <SectionFaq />
+      {/* </Body> */}
     </GlobalState>
   );
 }

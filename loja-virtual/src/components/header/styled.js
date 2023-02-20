@@ -63,7 +63,7 @@ export const Bg = styled.img`
     width: 60%;
     position: absolute;
     right: 5px;
-    top: 75px;
+    top: 205px;
     background-color: transparent
   }
 `;
@@ -80,7 +80,7 @@ export const BgTwo = styled.img`
     width: 40%;
     position: absolute;
     right: 25px;
-    top: 75px;
+    top: 195px;
     background-color: transparent
   }
 `;

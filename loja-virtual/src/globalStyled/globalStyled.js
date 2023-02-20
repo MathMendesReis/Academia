@@ -13,6 +13,7 @@ export const GlobalStyled = createGlobalStyle`
     font-style: normal
 }
 
+
 img{
     height: 50px;
     width: 50px;
