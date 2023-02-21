@@ -8,6 +8,7 @@ import SectionComoFuncionaOMetodo from './components/sectionComoFuncionaOMetodo'
 import { CardTreinador } from './components/SectionTreinador';
 import { SectionFaq } from './components/sectionFaq';
 import { Body } from './globalStyled/styled';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <SectionComoFuncionaOMetodo />
       <CardTreinador />
       <SectionFaq />
+      <Footer />
       {/* </Body> */}
     </GlobalState>
   );

@@ -23,10 +23,10 @@ export const SectionFaq = () => {
           <TxtPerguntasFrequentes>Perguntas frequentes</TxtPerguntasFrequentes>
         </BoxFaq>
         <ul>
-          <li>???</li>
-          <li>???</li>
-          <li>???</li>
-          <li>???</li>
+          <li>Qual tempo de participação do método?</li>
+          <li>Quais formas de pagamento?</li>
+          <li>Nunca pratiquei exercícios físicos, posso participar?</li>
+          <li>Estou acima do peso, consigo acompanhar os módulos?</li>
         </ul>
       </BoxFaqAndQuestions>
     </div>
