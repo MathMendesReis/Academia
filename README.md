@@ -1,8 +1,13 @@
 # Projeto Fabrica de Monstros
 
-![Fabrrca de monstros](./PokeAPI/src/Readme/assests/homePage.png)
+<div align="center">
 
-Uma pagina que mostra dados de alguns Pokemons
+![Fabrica de monstros](./loja-virtual//src/assest/fabrica%20de%20monstros.png)
+
+</div>
+
+
+Projeto que visa criar uma pagina de uma academia.
 
 ## Indice
 - <a href="#Tecnológias-utilizadas"> Tecnológias utilizadas</a>
@@ -16,28 +21,17 @@ Uma pagina que mostra dados de alguns Pokemons
 ## 📱Fucionalidades do projeto
 
 - O site tem apenas uma página: Home;
--  Projeto está seguindo esse <a href="https://www.figma.com/file/KseyA2Ofghiek2Cy3ZaDre/Poked%C3%A9x" >desing</a> design;
-- **Página Home:**
-	- [X]  Mostra uma lista de Pokemons;
-	- [X] Cada Pokemon e representado por um Card;
-	- [X] Em cada card de Pokemon tem um botão para adicioná-lo à Pokedex e um outro botão para acessar os detalhes do Pokemon;
-	- [X] Header dessa página terá um botão para acessar a página da Pokedex;
-- **Página Pokédex**
-	- [X] Renderiza uma lista de pokémons que foram adicionados na pokedex;
-	- [X] Em cada card de Pokemon tem um botão para removê-lo da Pokedex e um outro botão para acessar os detalhes do Pokemon.
-	- [X] Header deve tem um botão para voltar para a Home
-	- [X] Não deve ser possível adicionar o mesmo Pokemon duas vezes na Pokedex
-    - **Página de Detalhes**
-	- [X] Mostra os detalhes do Pokemon selecionado, com informações descritas
-	- [X] Header deve ter um botão para adicionar ou remover da Pokedex e outro para voltar a página home.
+-  Projeto está seguindo esse <a href="https://www.figma.com/file/YQtNSfvAY36ch94ueKxhD0/F%C3%A1brica-de-Monstros?node-id=3%3A11&t=T04PiYgLm03BqssO-0" >desing</a>;
+
+
 
     ## 👀Layout
-![Pagina Home](./PokeAPI/src/Readme/assests/headerHome.png)
+![Pagina Home](./loja-virtual/src/assest/home.png)
 
 
 ## Demonstração
 
-[Link demonstração](https://fabricademonstros.surge.sh/)
+[Link demonstração](https://loja-virtual-git-main-mathmendesreis.vercel.app/)
 
 ## Como rodar esse projeto?
 
