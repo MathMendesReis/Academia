@@ -12,8 +12,10 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
+        @media (max-width: 467px) {
+            width: 100%;
+        }
         >h1:first-child{
-            flex:1;
             font-size: 13rem;
             color: rgba(255, 255, 255, 0.10);
             font-weight: 700;
@@ -29,6 +31,11 @@ export const Container = styled.div`
                 position:relative;
                 right: -9rem ;
             }
+            @media (max-width: 467px) {
+            width: 100%;
+            font-size: 1rem;
+
+        }
         }
         >h1:last-child{
             display: inline;

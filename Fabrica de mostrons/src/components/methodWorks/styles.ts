@@ -27,9 +27,16 @@ export const Container = styled.div`
         align-items: center;
         width: 310px;
         height: 400px;
+        
         @media (max-width: 313px) {
             width:100%;
             height:auto;
+        }
+        >img{
+            @media (max-width: 363px) {
+            width:100%;
+            height:auto;
+        }
         }
         h2{
             position: relative;
@@ -76,5 +83,8 @@ export const Container = styled.div`
         font-weight: 700;
         text-transform: uppercase;
         border-radius:4px;
+        @media (max-width: 313px) {
+            width:100%;
+        }
     }
 `;

@@ -19,6 +19,9 @@ padding-bottom:3rem ;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
+    @media (max-width:669px) {
+        justify-content:center;
+        }
     >div{
         display: flex;
         flex-direction: column;

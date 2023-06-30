@@ -24,10 +24,14 @@ export const Container = styled.div<propsStyles>`
     }
     
     div:first-child{
+
         width: 25%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        @media (max-width:839px) {
+        width:100%
+    }
         @media (max-width:707px) {
             align-items: center;
             justify-content: baseline;
