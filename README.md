@@ -31,7 +31,7 @@ Projeto que visa criar uma pagina de uma academia.
 
 ## Demonstração
 
-[Link demonstração](https://loja-virtual-git-main-mathmendesreis.vercel.app/)
+[Link demonstração](https://projeto-fabrica-de-monstros-vcf2.vercel.app/)
 
 ## Como rodar esse projeto?
 
