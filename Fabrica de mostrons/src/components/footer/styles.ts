@@ -6,6 +6,11 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    @media (max-width: 651px) {
+            /* width: 100%; */
+    justify-content: center;
+
+        }
     >div:first-child{
         max-width:33rem;
         max-height: 20rem;
@@ -13,41 +18,33 @@ export const Container = styled.div`
         align-items: center;
         justify-content: center;
         @media (max-width: 467px) {
-            width: 100%;
+            /* width: 100%; */
         }
         >h1:first-child{
-            font-size: 13rem;
+            font-size: clamp(4rem, 8vw, 13rem);
             color: rgba(255, 255, 255, 0.10);
             font-weight: 700;
             line-height: 10%;
             letter-spacing: 4rem;
+            text-transform: uppercase;
             text-align: center;
             margin-left:3.7rem;
-            @media (max-width:759px) {
-                flex: 0;
-                width:100%;
-                margin:0;
-                font-size: 7rem;
-                position:relative;
-                right: -9rem ;
-            }
-            @media (max-width: 467px) {
+            @media (max-width:331px) {
             width: 100%;
-            font-size: 1rem;
-
-        }
+            margin:0;
+           letter-spacing: 0; 
+            }
         }
         >h1:last-child{
-            display: inline;
+            text-transform: uppercase;
+            text-align: center;
+            z-index: 1;
             position: relative;
-            right:27rem;
-            z-index: 999;
-            flex:1;
-            @media (max-width:759px) {
-                margin:0;
-                font-size: 2rem;
-                position:relative;
-                right: 11rem ;
+            right: 23rem;
+            @media (max-width:331px) {
+            width: 100%;
+            margin:0;
+           letter-spacing: 0; 
             }
         }
     }

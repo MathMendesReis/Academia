@@ -5,8 +5,8 @@ function Footer() {
 	return(
 		<Container>
 			<div>
-				<h1>FAQ</h1>
-				<h1>Perguntas Frequentes:</h1>
+				<h1>faq</h1>
+				<h1 className='text'>Perguntas frequentes</h1>
 			</div>
 			<div>
 				<div className='grouped'>
