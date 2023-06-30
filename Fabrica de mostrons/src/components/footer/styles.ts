@@ -35,18 +35,6 @@ export const Container = styled.div`
            letter-spacing: 0; 
             }
         }
-        >h1:last-child{
-            text-transform: uppercase;
-            text-align: center;
-            z-index: 1;
-            position: relative;
-            right: 23rem;
-            @media (max-width:331px) {
-            width: 100%;
-            margin:0;
-           letter-spacing: 0; 
-            }
-        }
     }
     div:last-child{
         display: flex;
