@@ -31,7 +31,7 @@ Projeto que visa criar uma pagina de uma academia.
 
 ## Demonstração
 
-[Link demonstração](https://projeto-fabrica-de-monstros-vcf2.vercel.app/)
+[Link demonstração](https://projeto-fabrica-de-monstros.vercel.app/?vercelToolbarCode=ynTs3uoYZD2P6R3)
 
 ## Como rodar esse projeto?
 
